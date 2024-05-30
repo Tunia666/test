@@ -9,7 +9,7 @@ namespace xUnitDemo
     public class XunitTest
     {
         [Fact]
-        public void Test_true()
+        public void Test_true()//тест на правильный логин и пароль
         {
             // Arrange
             var form = new Form1(); // 
@@ -26,7 +26,7 @@ namespace xUnitDemo
         }
 
         [Fact]
-        public void Test_false()
+        public void Test_false() //тест на неправильный логин и пароль
         {
             // Arrange
             var form = new Form1(); // 
@@ -38,7 +38,7 @@ namespace xUnitDemo
 
             // Assert
             bool i = Form1.IsUserValid(form.TextBox1Text, form.TextBox2Text);
-            Assert.True(i);
+            Assert.False(i);
         }
     }
 }

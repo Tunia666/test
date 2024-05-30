@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitDemo", "xUnitDemo\xUnitDemo.csproj", "{D4572081-2414-4582-B364-11690D9FC189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSUnitDemo", "MSUnitDemo\MSUnitDemo.csproj", "{831B5AC6-D1F6-4819-B871-E832A5E557FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSUnitDemo", "MSUnitDemo\MSUnitDemo.csproj", "{831B5AC6-D1F6-4819-B871-E832A5E557FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitDemo", "NUnitDemo\NUnitDemo.csproj", "{8FBD5834-CEE0-4C3A-87F7-D284E089C938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitDemo", "NUnitDemo\NUnitDemo.csproj", "{8FBD5834-CEE0-4C3A-87F7-D284E089C938}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

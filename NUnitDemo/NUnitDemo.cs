@@ -6,7 +6,7 @@ namespace NUnitDemo
     {
         
         [Test]
-        public void Test_true()
+        public void Test_true()//тест на правильный логин и пароль
         {
             // Arrange
             var form = new Form1(); // 
@@ -23,7 +23,7 @@ namespace NUnitDemo
         }
 
         [Test]
-        public void Test_false()
+        public void Test_false()//тест на неправильный логин и пароль
         {
             // Arrange
             var form = new Form1(); // 
@@ -35,7 +35,7 @@ namespace NUnitDemo
 
             // Assert
             bool i = Form1.IsUserValid(form.TextBox1Text, form.TextBox2Text);
-            Assert.IsTrue(i);
+            Assert.IsFalse(i);
         }
     }
 }
